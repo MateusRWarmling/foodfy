@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Foodfy</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+
+    <header class="container">
+        <a href="/"><img src="./assets/logo.png" alt="Foodfy"></a>
+        <div class="links">
+            <a href="">Sobre</a>
+            <a href="">Receitas</a>
+        </div>
+    </header>
+
+    <body>
+        <div class="container" id="banner">
+            <div>
+                <h1>As melhores receitas</h1>
+                <p>Aprenda a construir os melhores pratos
+                com receitas criadas por profissionais
+                do mundo inteiro.</p>
+            </div>
+            <img src="./assets/chef.png" alt="">
+        </div>
+
+        <div class="container" id="most-viewed">
+            <h1>Mais Acessadas</h1>
+            <section class="cards">
+                <div class="card" id="burger">
+                    <div class="card__image">
+                        <img src="./assets/burger.png" alt="Bacon Burger">
+                    </div>
+                    <div class="card__info">
+                        <h2 class="recipe-title">Triplo bacon burger</h2>
+                        <p class="recipe-author">por Jorge Relato</p>
+                    </div>
+                </div>
+
+                <div class="card" id="pizza">
+                    <div class="card__image">
+                        <img src="./assets/pizza.png" alt="pizza">
+                    </div>
+                    <div class="card__info">
+                        <h2 class="recipe-title">Pizza 4 estações</h2>
+                        <p class="recipe-author">por Fabiana Melo</p>
+                    </div>
+                </div>
+
+                <div class="card" id="espaguete">
+                    <div class="card__image">
+                        <img src="./assets/espaguete.png" alt="Espaguete">
+                    </div>
+                    <div class="card__info">
+                        <h2 class="recipe-title">Espaguete ao alho</h2>
+                        <p class="recipe-author">por Júlia Kinoto</p>
+                    </div>
+                </div>
+
+                <div class="card" id="lasanha">
+                    <div class="card__image">
+                        <img src="./assets/lasanha.png" alt="Lasanha">
+                    </div>
+                    <div class="card__info">
+                        <h2 class="recipe-title">Lasanha mac n’ cheese</h2>
+                        <p class="recipe-author">por Juliano Vieira</p>
+                    </div>
+                </div>
+
+                <div class="card" id="doce">
+                    <div class="card__image">
+                        <img src="./assets/doce.png" alt="Docinhos">
+                    </div>
+                    <div class="card__info">
+                        <h2 class="recipe-title">Docinhos pão-do-céu</h2>
+                        <p class="recipe-author">por Ricardo Golvea</p>
+                    </div>
+                </div>
+                
+                <div class="card" id="asinhas">
+                    <div class="card__image">
+                        <img src="./assets/asinhas.png" alt="Asinhas">
+                    </div>
+                    <div class="card__info">
+                        <h2 class="recipe-title" >Asinhas de frango ao barbecue</h2>
+                        <p class="recipe-author">por Vania Steroski</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <footer>
+            <p>Todos direitos reservados, receitas Foodfy.</p>
+        </footer>
+
+        <div class="modal-overlay">
+            <div class="modal">
+                <div class="image-wrapper">
+                    <img src="" alt="">
+                </div>
+                <div class="modal-content">
+                    <h1>Muito triste!</h1>
+                    <p>não consido deixar automático :c</p>
+                </div>
+                <a onclick="closeModal()" class="close-modal">Fechar modal</a>
+            </div>
+        </div>
+
+        <script src="scripts.js"></script>
+
+    </body>
+</html>
